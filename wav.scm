@@ -1,6 +1,5 @@
 (use bitstring
      srfi-14
-     defstruct
      posix)
 (define file-name "s1.wav") 
 (define f (file-open file-name 
